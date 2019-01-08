@@ -1,0 +1,17 @@
+﻿  stats.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(174): error C2664: 'bool (char)': cannot convert argument 1 from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'char'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(174): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\dougl\source\repos\consoleapplication4\consoleapplication4\stats.cpp(82): note: see reference to function template instantiation '_InIt std::find_if<iter,bool(__cdecl *)(char)>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=iter,
+              _Pr=bool (__cdecl *)(char)
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(202): error C2664: 'bool (char)': cannot convert argument 1 from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'char'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\algorithm(202): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\dougl\source\repos\consoleapplication4\consoleapplication4\stats.cpp(84): note: see reference to function template instantiation '_InIt std::find_if_not<iter,bool(__cdecl *)(char)>(_InIt,const _InIt,_Pr)' being compiled
+          with
+          [
+              _InIt=iter,
+              _Pr=bool (__cdecl *)(char)
+          ]
